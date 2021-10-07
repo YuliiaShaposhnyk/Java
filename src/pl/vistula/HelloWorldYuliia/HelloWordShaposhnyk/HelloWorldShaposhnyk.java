@@ -6,4 +6,8 @@ public class HelloWorldShaposhnyk{
         System.out.println("Hello World");
     }
 
+    public static void Yuliia(String[] args){
+        System.out.println("Hello World");
+    }
+
 }
