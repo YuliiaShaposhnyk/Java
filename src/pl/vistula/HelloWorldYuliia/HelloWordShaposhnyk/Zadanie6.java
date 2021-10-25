@@ -3,12 +3,11 @@ package pl.vistula.HelloWorldYuliia.HelloWordShaposhnyk;
 import java.util.Random;
 
 public class Zadanie6 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int ilosc_liczb = 10, i;
-        double liczba, suma = 0, min, max;
-        System.out.println("Program losuje " + ilosc_liczb +  "liczb "
-                + "całkowitych od 0 do 99,");
+        float liczba, suma = 0, min, max;
+        System.out.println("Program losuje " + ilosc_liczb +  "liczb " + "całkowitych od 0 do 100,");
         System.out.println("a następnie znajduje najmniejszą i największą");
         System.out.println("oraz oblicza średnia ze wszystkich wylosowanych liczb.");
         Random r = new Random();
