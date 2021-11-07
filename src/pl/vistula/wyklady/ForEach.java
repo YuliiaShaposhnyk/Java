@@ -8,7 +8,20 @@ public class ForEach {
         for (int x: nums){
             System.out.println("Wartosc elementu " + x);
             suma +=x;
+            if(x==5) break;
         }
         System.out.println("Suma elementow tablicy: " + suma);
+        System.out.println();
+
+        for (int x: nums){
+            System.out.print(x + " ");
+            x = x * 10;
+        }
+        System.out.println();
+
+        for (int x: nums){
+            System.out.print(x + " ");
+        }
+        System.out.println();
     }
 }
