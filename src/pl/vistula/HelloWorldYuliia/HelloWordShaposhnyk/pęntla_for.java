@@ -10,5 +10,7 @@ public class pęntla_for {
             sum += i;
         }
         System.out.println("Summa " + sum);
+
+
     }
 }
