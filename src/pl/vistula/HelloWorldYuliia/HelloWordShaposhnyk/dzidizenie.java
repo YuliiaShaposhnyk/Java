@@ -39,7 +39,6 @@ public class dzidizenie {
             kod = people.nextLine();
 
         }
-
         void drukuj1(){
             System.out.println("Imię:" + this.name);
             System.out.println("Nazwisko:" + this.nazwisko);
@@ -51,14 +50,9 @@ public class dzidizenie {
     }
 
     public static void main(String[] args) {
-        Osoba osoba1 = new Osoba();
-        osoba1.inicjuj1();
-        osoba1.drukuj1();
-
         Kadra kadra1 = new Kadra();
         kadra1.inicjuj();
         kadra1.drukuj();
-
 
     }
 

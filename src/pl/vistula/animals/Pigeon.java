@@ -3,6 +3,8 @@ package pl.vistula.animals;
 public class Pigeon extends Bird {
     @Override
     void eat() {
+        Bird p = new Bird();
+        p.eat();
         System.out.println("Chleb");
     }
 
