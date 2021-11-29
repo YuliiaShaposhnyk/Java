@@ -1,11 +1,11 @@
 package pl.vistula.animals;
 
-public class Animal {
+public abstract class  Animal {
     String name;
     int age;
     double weight;
 
-    void eat(){
+     void eat(){
         System.out.println();
     }
     void getVoice(){

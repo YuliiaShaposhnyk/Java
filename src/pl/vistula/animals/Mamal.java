@@ -1,5 +1,10 @@
 package pl.vistula.animals;
 
-public class Mamal extends Animal {
-    Animal m = new Animal();
+public abstract class Mamal extends Animal {
+    Animal m = new Animal() {
+        @Override
+        void eat() {
+            System.out.println("");
+        }
+    };
 }
