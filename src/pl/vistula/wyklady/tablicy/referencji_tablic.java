@@ -1,4 +1,4 @@
-package pl.vistula.wyklady;
+package pl.vistula.wyklady.tablicy;
 
 public class referencji_tablic {
     public static void main(String[] args) {

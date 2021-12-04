@@ -1,4 +1,4 @@
-package pl.vistula.wyklady;
+package pl.vistula.wyklady.tablicy;
 
 public class tablice_jednowymiarowe {
     public static void main(String[] args) {
